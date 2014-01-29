@@ -6,7 +6,10 @@
     position: absolute;
 }
 
-
+.buttonPad
+{
+    margin-top:1.5em;
+}
 .resultTable {
     padding-left: 5%;
     width: 95%;
