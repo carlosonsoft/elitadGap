@@ -58,11 +58,19 @@ text-align:right;
 .scroller {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+    padding-top:75px;
    /* position: absolute;
     top: 168px;
     bottom: 0px;*/
     left: 0px;
     right: 0px;
+}
+
+.fixed
+{
+    position:fixed;
+    top=0;
+    width:100%;
 }
 
 .topcoat-icon--back {
