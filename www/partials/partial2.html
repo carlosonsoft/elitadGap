@@ -1,0 +1,63 @@
+<div class="topcoat-navigation-bar">
+    <div class="topcoat-navigation-bar__item left quarter">
+        <a class="topcoat-icon-button--quiet back-button" href="" ng-click="back()">
+            <span class="topcoat-icon topcoat-icon--back"></span>
+        </a>
+    </div>
+    <div class="topcoat-navigation-bar__item center half">
+        <h1 class="topcoat-navigation-bar__title">Facts about numbers</h1>
+    </div>
+</div>
+
+
+<table class="resultTable center">
+<thead>
+<tr>
+    <th colspan="2">Sum of each numbers generated</th>
+</tr>
+</thead>
+<tbody>
+    <tr ng-repeat="e in numbersArray">
+            <td class="key">{{e.key}}</td>
+            <td class="value">{{e.value}}</td>
+    </tr>
+ </tbody>
+</table>
+
+
+<table class="resultTable center">
+<thead>
+<tr>
+    <th colspan="2">Other interesting facts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td class="key">Total  numbers generated</td>
+    <td class="value">{{number}}</td>
+</tr>
+
+<tr>
+    <td class="key">Total even numbers generated</td>
+    <td class="value">{{stats.even}}</td>
+</tr>
+<tr>
+    <td class="key">Total odd numbers generated</td>
+    <td class="value">{{stats.odd}}</td>
+</tr>
+<tr>
+    <td class="key">Maximun number(s) generated</td>
+    <td class="value">{{stats.maximuns.join(",")}}</td>
+</tr>
+
+<tr>
+    <td class="key">Minumun number(s) generated</td>
+    <td class="value">{{stats.minimuns.join(",")}}</td>
+</tr>
+
+</tbody>
+</table>
+
+<div class="center full">
+    <button class="topcoat-button" ng-click="back()">One more time!</button>
+</div>

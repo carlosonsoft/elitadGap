@@ -1,0 +1,21 @@
+
+<div class="topcoat-navigation-bar">
+    <div class="topcoat-navigation-bar__item center full">
+        <h1 class="topcoat-navigation-bar__title">Facts about numbers</h1>
+    </div>
+</div>
+
+<form name="form" class="form" novalidate>
+
+    <div class="left">
+    <p>How many numbers do you wish to generate?</p>
+    <input class="topcoat-text-input" ng-model='number' type="number"  name="uNumber" min="0"  required>
+     <div ng-show="form.uNumber.$dirty && form.uNumber.$invalid">
+          Please insert a positive number
+    </div>
+    </div>
+
+    <div class="center full">
+        <button class="topcoat-button" ng-click="calculate()"  ng-disabled="form.$invalid">Calcular</button>
+    </div>
+</form>
