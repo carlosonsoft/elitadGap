@@ -57,9 +57,9 @@ text-align:right;
 .scroller {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    position: absolute;
+   /* position: absolute;
     top: 168px;
-    bottom: 0px;
+    bottom: 0px;*/
     left: 0px;
     right: 0px;
 }
