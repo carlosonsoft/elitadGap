@@ -1,7 +1,6 @@
 
 .form {
     left: 5%;
-    height: 100%;
     width: 95%;
     position: absolute;
 }
@@ -9,7 +8,9 @@
 .buttonPad
 {
     margin-top:1.5em;
+    margin-bottom:1.5em;
 }
+
 .resultTable {
     padding-left: 5%;
     width: 95%;
@@ -18,32 +19,32 @@
 
 table {
 width:90%;
-border-top:1px solid #ffffff;
-border-right:1px solid #ffffff;
+border-top:1px solid #aaaaaa;
+border-right:1px solid #aaaaaa;
 margin:1em auto;
 border-collapse:collapse;
 }
 
 th {
-color:#678197;
-border-bottom:1px solid #e5eff8;
-border-left:1px solid #e5eff8;
+color:#000000;
+border-bottom:1px solid #aaaaaa;
+border-left:1px solid #aaaaaa;
 padding:.3em 1em;
 text-align:center;
 }
 
 td.key {
-color:#678197;
-border-bottom:1px solid #e5eff8;
-border-left:1px solid #e5eff8;
+color:#000000;
+border-bottom:1px solid #aaaaaa;
+border-left:1px solid #aaaaaa;
 padding:.3em 1em;
 text-align:left;
 }
 
 td.value {
-color:#678197;
-border-bottom:1px solid #e5eff8;
-border-left:1px solid #e5eff8;
+color:##000000;
+border-bottom:1px solid #aaaaaa;
+border-left:1px solid #aaaaaa;
 padding:.3em 1em;
 text-align:right;
 }
